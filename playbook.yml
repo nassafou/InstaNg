@@ -1,0 +1,8 @@
+--- 
+ - name: install nginx
+   hosts: web
+   remote_user: bob
+   
+   tasks:
+     - name: Tache
+       apt: name=nginx

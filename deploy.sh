@@ -8,26 +8,24 @@
 #################################################
 
 if [ "$1" == "--create" ];then
- echo ""
- echo "creation encours"
-  #FROM alpine:latest
+
 
  # Définition du nombre conteneur 
   nb_machine=1
- # if [ -Z $2 ]then;
-  #  $nb_machine=1
-  #run=sudo docker run  -tid --name $USER-nompost alpine:latest
- # else
-  #    nb_machine=$2
-   #   echo " Il ya" ${nb_machine}
-  #fi
-   [ "$2" != "" ] && nb_machine=$2
- # récupération de l'id max
+    [ "$2" != "" ] && nb_machine=$2
+
+ # setting min/max
+  min=1
+  max=0
+ # récupération de l'idmax
  idmax=`sudo docker ps -a --format 'table {{.ID}} {{.Names}}' | awk -F "-" -v user=$USER '$0 ~ user"-alpine"{print $3}' | sort -r | head -1`
+ # redéfinition de min et max
+ min=$(($idmax + 1))
+ max=$(($idmax  + $nb_machine))
+
  
- echo "creation de :" ${nb_machine}
-  for i in $(seq 1  $nb_machine) ; do 
-  echo $i
+  for i in $(seq $min $max) ; do 
+  
   sudo docker run  -tid --name $USER-alpine-$i alpine:latest
  
   done      

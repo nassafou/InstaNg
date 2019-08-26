@@ -10,10 +10,31 @@
 if [ "$1" == "--create" ];then
  echo ""
  echo "creation encours"
+  #FROM alpine:latest
+  nb_machine=1
+ # if [ -Z $2 ]then;
+  #  $nb_machine=1
+  #run=sudo docker run  -tid --name $USER-nompost alpine:latest
+ # else
+  #    nb_machine=$2
+   #   echo " Il ya" ${nb_machine}
+  #fi
+   [ "$2" != "" ] && nb_machine=$2
+ echo "creation de :" ${nb_machine}
+  for i in $(seq 1  $nb_machine) ; do 
+  echo $i
+  sudo docker run  -tid --name $USER-$i alpine:latest
+ 
+  done      
  echo ""
    elif [ "$1" == "--drop" ];then
+      nb_machine=1
+      [ "$2" != "" ] && nb_machine=$2
       echo ""
-      echo "Suppression en cours"
+      for i in $(seq 1 $nb_machine) ; do 
+      echo $i
+      sudo docker rm -f $USER-$i
+      done
       echo ""
         elif [ "$1" == "--info" ];then
            echo ""

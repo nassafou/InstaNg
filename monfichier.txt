@@ -1,0 +1,2 @@
+champ1;champ2;champ3
+yak;mon1;mon2

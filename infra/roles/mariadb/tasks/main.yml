@@ -1,0 +1,13 @@
+---
+ - name: "[MARIA]- apt-get update"
+   apt:
+     update_cache: yes
+
+ - name: "[MARIA]- install"
+   apt:
+     name: "{{ maria_packages }}"
+
+ - name: "[MARIA]- start service"
+   service:
+    name: mariadb
+     state: started

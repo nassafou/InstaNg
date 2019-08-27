@@ -18,7 +18,7 @@ if [ "$1" == "--create" ];then
   min=1
   max=0
  # récupération de l'idmax
- idmax=`sudo docker ps -a --format 'table {{.ID}} {{.Names}}' | awk -F "-" -v user=$USER '$0 ~ user"-alpine"{print $3}' | sort -r | head -1`
+ idmax=` docker ps -a --format 'table {{.ID}} {{.Names}}' | awk -F "-" -v user=$USER '$0 ~ user"-alpine"{print $3}' | sort -r | head -1`
  # redéfinition de min et max
  min=$(($idmax + 1))
  max=$(($idmax  + $nb_machine))
@@ -26,31 +26,40 @@ if [ "$1" == "--create" ];then
  
   for i in $(seq $min $max) ; do 
   
-  sudo docker run  -tid --name $USER-alpine-$i alpine:latest
+   docker run  -tid --name $USER-alpine-$i alpine:latest
  
   done      
  echo ""
-   elif [ "$1" == "--drop" ];then
+      elif [ "$1" == "--drop" ];then
       nb_machine=1
       [ "$2" != "" ] && nb_machine=$2
       echo ""
       for i in $(seq 1 $nb_machine) ; do 
       echo $i
-      sudo docker rm -f $USER-$i
+       docker rm -f $USER-$i
       done
       echo ""
-        elif [ "$1" == "--info" ];then
+           elif [ "$1" == "--info" ];then
            echo ""
-           echo "Info"
+           for conteneur  in $(docker ps -a | grep $USER-alpine | awk '{print $1}');do 
+               docker inspect -f ' => {{.Name}} - {{.NetworkSettings.IPAddress }}' $conteneur
+           done 
            echo ""
-             elif [ "$1" == "--start" ];then
+                elif [ "$1" == "--start" ];then
                 echo
-                echo "demarrer le conteneur "
+                # recupération d' ID
+               #  docker ps -a | grep $USER-alpine | awk '{print $1}'
+                # Ajouter start
+                docker start $( docker ps -a | grep $USER-alpine | awk '{print $1}')
                 echo ""  
-                  elif [ "$1" == "--ansible" ];then
-                  echo
-                  echo "Lancer Ansible"
-                  echo
+                     elif [ "$1" == "--ansible" ];then
+                     echo
+                     echo "Lancer Ansible"
+                     echo
+                          elif [ "$1" == "--stop" ];then
+                          echo ""
+                          docker stop $( docker ps -a | grep $USER-alpine | awk 'print $1')
+                          echo ""
 
 else
 echo "

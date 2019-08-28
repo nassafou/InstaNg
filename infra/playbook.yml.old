@@ -1,0 +1,5 @@
+---
+ - name: "[YATA]- maria"
+   hosts: mariadb
+   roles:
+     - mariadb

@@ -1,5 +1,29 @@
 ---
- - name: "[YATA]- maria"
-   hosts: mariadb
-   roles:
-     - mariadb
+    - name: "[YATA]"
+      hosts: mariadb
+#remote_user: bob
+      tasks:
+         - name: "[YATA] - copie de fichier"
+           copy: 
+             src: ./monfichier1.txt
+             dest: /tmp/yata1.txt
+
+ #        - name: "[YATA]- add pierre"
+  #         become: yes
+   #        lineinfile:   
+    #            path: /tmp/yata1.txt
+     #           line: 'et moi je suis pierre'
+
+         - name: "[YATA]- add fichier"
+           lineinfile: 
+                path: /tmp/yata.txt
+                regexp: '(.*)maitrise(.*)'
+                line: '\1paul\2'
+                backrefs: yes
+          
+         - name: "[YATA]- add maitrise"
+           lineinfile: 
+                path: /tmp/yata.txt
+                insertbefore: '(.*)maitrise(.*)'
+                line: 'mon prénom c est toto'
+               

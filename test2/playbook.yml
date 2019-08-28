@@ -1,0 +1,22 @@
+---
+ - name: "[TEMPLATE]"
+   hosts: web
+   remote_user: bob
+   vars: 
+     myapp_conf:
+       - "buffer = True"
+       - "memory = 90mb"
+       - "cache = 1G"
+   tasks:
+    - name: "[TEMPLATE]- create directory"
+      file:
+       path: /tmp/myapp2/
+       state: directory
+       mode: 0755
+       owner: bob
+
+    - name: "[TEMPLATE] - create template "
+      template:
+        src: myappconf.cfg.j2
+        dest: /tmp/myapp2/myappconf.cfg
+        mode: 0755

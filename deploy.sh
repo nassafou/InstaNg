@@ -38,8 +38,8 @@ if [ "$1" == "--create" ];then
    # demarrer le service 
    docker exec -ti $USER-debian-$i /bin/bash -c "service ssh start"
    echo "Conteneur $USER-debian-$i crée"
-  done      
- echo ""
+   done      
+   echo ""
       elif [ "$1" == "--drop" ];then
       nb_machine=1
       [ "$2" != "" ] && nb_machine=$2
@@ -51,7 +51,7 @@ if [ "$1" == "--create" ];then
       echo ""
            elif [ "$1" == "--info" ];then
            echo ""
-           for conteneur  in $(docker ps -a | grep $USER-alpine | awk '{print $1}');do 
+           for conteneur  in $(docker ps -a | grep $USER-debian |  awk '{print $1}');do 
                docker inspect -f ' => {{.Name}} - {{.NetworkSettings.IPAddress }}' $conteneur
            done 
            echo ""
@@ -60,7 +60,7 @@ if [ "$1" == "--create" ];then
                 # recupération d' ID
                #  docker ps -a | grep $USER-alpine | awk '{print $1}'
                 # Ajouter start
-                docker start $( docker ps -a | grep $USER-alpine | awk '{print $1}')
+                docker start $( docker ps -a | grep $USER-debian | awk '{print $1}')
                 echo ""  
                      elif [ "$1" == "--ansible" ];then
                      echo
@@ -68,7 +68,7 @@ if [ "$1" == "--create" ];then
                      echo
                           elif [ "$1" == "--stop" ];then
                           echo ""
-                          docker stop $( docker ps -a | grep $USER-alpine | awk 'print $1')
+                          docker stop $( docker ps -a | grep $USER-debian | awk 'print $1')
                           echo ""
 
 else

@@ -1,29 +1,44 @@
 ---
     - name: "[YATA]"
       hosts: mariadb
-#remote_user: bob
+      remote_user: bob
+      vars:
+        - check5: "cc8f33487c28e197170057ec924ee6f6"
       tasks:
-         - name: "[YATA] - copie de fichier"
-           copy: 
-             src: ./monfichier1.txt
-             dest: /tmp/yata1.txt
 
- #        - name: "[YATA]- add pierre"
-  #         become: yes
-   #        lineinfile:   
-    #            path: /tmp/yata1.txt
-     #           line: 'et moi je suis pierre'
+           # vérifie si le fichier existe et collete des informations 
+         - name: "[YATA] - check md5"
+           stat:
+             path: /tmp/yata1.txt
+             get_checksum: yes
+             checksum_algorithm: sha1
+           register: sum5
+ 
 
-         - name: "[YATA]- add fichier"
-           lineinfile: 
-                path: /tmp/yata.txt
-                regexp: '(.*)maitrise(.*)'
-                line: '\1paul\2'
-                backrefs: yes
-          
-         - name: "[YATA]- add maitrise"
-           lineinfile: 
-                path: /tmp/yata.txt
-                insertbefore: '(.*)maitrise(.*)'
-                line: 'mon prénom c est toto'
-               
+           # Permet d'afficher certaines informations      
+#         - name: "debug"
+#           debug:
+#             msg: "{{ sum5.stat.checksum }}"
+         
+         # Un variable a l'intérieur d'un programme est introduit par set_fact
+         - set_fact: 
+             data: "0"
+           when: sum5.stat.checksum is not defined
+         
+         - set_fact: 
+             data: "{{ sum5.stat.checksum }}"
+           when: sum5.stat.checksum is  defined
+         
+         - name: "[YATA]- bloc"
+           block:
+            - name: "[YATA] - copy file"
+              copy: 
+                src: ./monfichier1.txt
+                dest: /tmp/yata1.txt
+
+            - name: "[YATA]- add line"
+              lineinfile:   
+                dest: /tmp/yata1.txt
+                line: 'et moi je suis pierre'
+           when: data != check5
+

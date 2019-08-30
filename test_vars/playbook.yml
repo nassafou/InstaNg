@@ -1,0 +1,11 @@
+---
+- name: "[YATA]"
+  hosts: all
+  remote_user: bob
+  vars: 
+   var1: "playbook1"
+  tasks:
+    
+    - name: "[YATA]- get variable"
+      debug: 
+        msg: "{{ var1 }}"

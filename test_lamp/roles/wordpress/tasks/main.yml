@@ -1,0 +1,28 @@
+---
+- name: "[WORDPRESS] - update cache"
+  become: yes
+  apt: 
+    update_cache: yes
+
+- name: "[WORDPRESS]- install LAMP "
+  become: yes
+  apt: 
+    name: "{{ item }}"
+    state: present
+  with_items:
+     - apache2
+     - mysql-server
+     - php7.0-common
+     - php7.0-mysql
+     - libapache2-mod-php7.0
+     - python-mysqldb
+     - wget
+
+
+- name: "[WORDPRESS]- install LAMP "
+  become: yes
+  service: 
+       name: apache2
+       state: started
+       enabled: yes
+ 

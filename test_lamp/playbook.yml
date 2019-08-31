@@ -1,0 +1,11 @@
+---
+- name: "[WORDPRESS]"
+  hosts: WORDPRESS
+  remote_user: bob
+  vars:
+  roles:
+    - wordpress
+  tasks:
+     
+        
+     

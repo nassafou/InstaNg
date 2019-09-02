@@ -1,0 +1,21 @@
+---
+ - name: "Install Apache"
+   hosts: web
+   remote_user: bob
+   tasks:
+     - name: "Install apache package"
+       become: yes
+       apt:  name=apache2 update_cache=yes state=present
+     - name: "Start apache"
+       become: yes
+       service: 
+         name: apache2
+         state: started
+         enable: yes
+     - name: "copy test.html"
+       become: yes
+       copy: 
+         src: "test.html"
+         dest: "/var/www/html"
+         owner: "apache"
+         group: "apache"

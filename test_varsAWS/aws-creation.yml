@@ -1,0 +1,16 @@
+---
+ - name: "Create ec2 instance"
+   hosts: localhost
+   gather_facts: no
+   tasks:
+     - name: "test provisionning"
+       ec2:
+          instance_type: t2.micro
+          image: "ami-02f706d959cedf892"
+          wait: true
+          region: "us-east-2"
+          instance_tags:
+            type: "test"
+          count_tag:
+            type: "test"
+          exact_count: 1

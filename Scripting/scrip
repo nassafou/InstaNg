@@ -1,0 +1,4 @@
+#!/usr/bin/awk -f
+BEGIN {
+print "Bonjour xavier,\nje suis ton script awk !"
+}

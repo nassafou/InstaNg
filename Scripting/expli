@@ -1,0 +1,5 @@
+#!/usr/bin/awk -f
+BEGIN {print "Liste des artistes"} 
+!/xav[ie]+r/{print   "Prenom:" $2, "Nombre de caratères:"length($2)}
+ END{print "Nombre de ligne:" NR}
+

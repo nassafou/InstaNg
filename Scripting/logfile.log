@@ -1,0 +1,489 @@
+Aug 24 06:34:20 dockerTest dhclient[895]: DHCPREQUEST of 192.168.236.139 on ens33 to 192.168.236.254 port 67 (xid=0x700f4ba1)
+Aug 24 06:34:20 dockerTest dhclient[895]: DHCPACK of 192.168.236.139 from 192.168.236.254
+Aug 24 06:34:20 dockerTest dhclient[895]: bound to 192.168.236.139 -- renewal in 866 seconds.
+Aug 24 06:35:01 dockerTest CRON[98456]: (root) CMD (command -v debian-sa1 > /dev/null && debian-sa1 1 1)
+Aug 24 06:45:01 dockerTest CRON[98485]: (root) CMD (command -v debian-sa1 > /dev/null && debian-sa1 1 1)
+Aug 24 06:48:46 dockerTest dhclient[895]: DHCPREQUEST of 192.168.236.139 on ens33 to 192.168.236.254 port 67 (xid=0x700f4ba1)
+Aug 24 06:48:46 dockerTest dhclient[895]: DHCPACK of 192.168.236.139 from 192.168.236.254
+Aug 24 06:48:46 dockerTest dhclient[895]: bound to 192.168.236.139 -- renewal in 723 seconds.
+Aug 24 06:55:01 dockerTest CRON[98517]: (root) CMD (command -v debian-sa1 > /dev/null && debian-sa1 1 1)
+Aug 24 06:55:16 dockerTest systemd[1]: Starting Daily apt upgrade and clean activities...
+Aug 24 06:55:27 dockerTest systemd[1]: Started Daily apt upgrade and clean activities.
+Aug 24 07:00:49 dockerTest dhclient[895]: DHCPREQUEST of 192.168.236.139 on ens33 to 192.168.236.254 port 67 (xid=0x700f4ba1)
+Aug 24 07:00:49 dockerTest dhclient[895]: DHCPACK of 192.168.236.139 from 192.168.236.254
+Aug 24 07:00:49 dockerTest dhclient[895]: bound to 192.168.236.139 -- renewal in 838 seconds.
+Aug 24 07:05:01 dockerTest CRON[98620]: (root) CMD (command -v debian-sa1 > /dev/null && debian-sa1 1 1)
+Aug 24 07:14:47 dockerTest dhclient[895]: DHCPREQUEST of 192.168.236.139 on ens33 to 192.168.236.254 port 67 (xid=0x700f4ba1)
+Aug 24 07:14:47 dockerTest dhclient[895]: DHCPACK of 192.168.236.139 from 192.168.236.254
+Aug 24 07:14:47 dockerTest dhclient[895]: bound to 192.168.236.139 -- renewal in 783 seconds.
+Aug 24 07:15:01 dockerTest CRON[98653]: (root) CMD (command -v debian-sa1 > /dev/null && debian-sa1 1 1)
+Aug 24 07:17:01 dockerTest CRON[98659]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Aug 24 07:25:01 dockerTest CRON[98681]: (root) CMD (command -v debian-sa1 > /dev/null && debian-sa1 1 1)
+Aug 24 07:27:50 dockerTest dhclient[895]: DHCPREQUEST of 192.168.236.139 on ens33 to 192.168.236.254 port 67 (xid=0x700f4ba1)
+Aug 24 07:27:50 dockerTest dhclient[895]: DHCPACK of 192.168.236.139 from 192.168.236.254
+Aug 24 07:27:50 dockerTest dhclient[895]: bound to 192.168.236.139 -- renewal in 807 seconds.
+Aug 24 07:35:01 dockerTest CRON[98730]: (root) CMD (command -v debian-sa1 > /dev/null && debian-sa1 1 1)
+Aug 24 07:41:17 dockerTest dhclient[895]: DHCPREQUEST of 192.168.236.139 on ens33 to 192.168.236.254 port 67 (xid=0x700f4ba1)
+Aug 24 07:41:17 dockerTest dhclient[895]: DHCPACK of 192.168.236.139 from 192.168.236.254
+Aug 24 07:41:17 dockerTest dhclient[895]: bound to 192.168.236.139 -- renewal in 708 seconds.
+Aug 24 07:45:01 dockerTest CRON[98772]: (root) CMD (command -v debian-sa1 > /dev/null && debian-sa1 1 1)
+Aug 24 07:53:06 dockerTest dhclient[895]: DHCPREQUEST of 192.168.236.139 on ens33 to 192.168.236.254 port 67 (xid=0x700f4ba1)
+Aug 24 07:53:06 dockerTest dhclient[895]: DHCPACK of 192.168.236.139 from 192.168.236.254
+Aug 24 07:53:06 dockerTest dhclient[895]: bound to 192.168.236.139 -- renewal in 703 seconds.
+Aug 24 07:55:01 dockerTest CRON[98805]: (root) CMD (command -v debian-sa1 > /dev/null && debian-sa1 1 1)
+Aug 24 08:04:49 dockerTest dhclient[895]: DHCPREQUEST of 192.168.236.139 on ens33 to 192.168.236.254 port 67 (xid=0x700f4ba1)
+Aug 24 08:04:49 dockerTest dhclient[895]: DHCPACK of 192.168.236.139 from 192.168.236.254
+Aug 24 08:04:49 dockerTest dhclient[895]: bound to 192.168.236.139 -- renewal in 732 seconds.
+Aug 24 08:05:01 dockerTest CRON[98836]: (root) CMD (command -v debian-sa1 > /dev/null && debian-sa1 1 1)
+Aug 24 08:15:01 dockerTest CRON[98856]: (root) CMD (command -v debian-sa1 > /dev/null && debian-sa1 1 1)
+Aug 24 08:17:01 dockerTest dhclient[895]: DHCPREQUEST of 192.168.236.139 on ens33 to 192.168.236.254 port 67 (xid=0x700f4ba1)
+Aug 24 08:17:01 dockerTest dhclient[895]: DHCPACK of 192.168.236.139 from 192.168.236.254
+Aug 24 08:17:01 dockerTest dhclient[895]: bound to 192.168.236.139 -- renewal in 759 seconds.
+Aug 24 08:17:01 dockerTest CRON[98872]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Aug 24 08:25:01 dockerTest CRON[98884]: (root) CMD (command -v debian-sa1 > /dev/null && debian-sa1 1 1)
+Aug 24 08:29:41 dockerTest dhclient[895]: DHCPREQUEST of 192.168.236.139 on ens33 to 192.168.236.254 port 67 (xid=0x700f4ba1)
+Aug 24 08:29:41 dockerTest dhclient[895]: DHCPACK of 192.168.236.139 from 192.168.236.254
+Aug 24 08:29:41 dockerTest dhclient[895]: bound to 192.168.236.139 -- renewal in 742 seconds.
+Aug 24 08:35:01 dockerTest CRON[98909]: (root) CMD (command -v debian-sa1 > /dev/null && debian-sa1 1 1)
+Aug 24 08:42:03 dockerTest dhclient[895]: DHCPREQUEST of 192.168.236.139 on ens33 to 192.168.236.254 port 67 (xid=0x700f4ba1)
+Aug 24 08:42:03 dockerTest dhclient[895]: DHCPACK of 192.168.236.139 from 192.168.236.254
+Aug 24 08:42:03 dockerTest dhclient[895]: bound to 192.168.236.139 -- renewal in 883 seconds.
+Aug 24 08:45:01 dockerTest CRON[98933]: (root) CMD (command -v debian-sa1 > /dev/null && debian-sa1 1 1)
+Aug 24 08:55:01 dockerTest CRON[98948]: (root) CMD (command -v debian-sa1 > /dev/null && debian-sa1 1 1)
+Aug 24 08:56:46 dockerTest dhclient[895]: DHCPREQUEST of 192.168.236.139 on ens33 to 192.168.236.254 port 67 (xid=0x700f4ba1)
+Aug 24 08:56:46 dockerTest dhclient[895]: DHCPACK of 192.168.236.139 from 192.168.236.254
+Aug 24 08:56:46 dockerTest dhclient[895]: bound to 192.168.236.139 -- renewal in 731 seconds.
+Aug 24 09:05:01 dockerTest CRON[98973]: (root) CMD (command -v debian-sa1 > /dev/null && debian-sa1 1 1)
+Aug 24 09:08:57 dockerTest dhclient[895]: DHCPREQUEST of 192.168.236.139 on ens33 to 192.168.236.254 port 67 (xid=0x700f4ba1)
+Aug 24 09:08:57 dockerTest dhclient[895]: DHCPACK of 192.168.236.139 from 192.168.236.254
+Aug 24 09:08:57 dockerTest dhclient[895]: bound to 192.168.236.139 -- renewal in 834 seconds.
+Aug 24 09:15:01 dockerTest CRON[98998]: (root) CMD (command -v debian-sa1 > /dev/null && debian-sa1 1 1)
+Aug 24 09:17:01 dockerTest CRON[99003]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Aug 24 09:22:52 dockerTest dhclient[895]: DHCPREQUEST of 192.168.236.139 on ens33 to 192.168.236.254 port 67 (xid=0x700f4ba1)
+Aug 24 09:22:52 dockerTest dhclient[895]: DHCPACK of 192.168.236.139 from 192.168.236.254
+Aug 24 09:22:52 dockerTest dhclient[895]: bound to 192.168.236.139 -- renewal in 840 seconds.
+Aug 24 09:25:01 dockerTest CRON[99025]: (root) CMD (command -v debian-sa1 > /dev/null && debian-sa1 1 1)
+Aug 24 09:35:01 dockerTest CRON[99040]: (root) CMD (command -v debian-sa1 > /dev/null && debian-sa1 1 1)
+Aug 24 09:36:52 dockerTest dhclient[895]: DHCPREQUEST of 192.168.236.139 on ens33 to 192.168.236.254 port 67 (xid=0x700f4ba1)
+Aug 24 09:36:52 dockerTest dhclient[895]: DHCPACK of 192.168.236.139 from 192.168.236.254
+Aug 24 09:36:52 dockerTest dhclient[895]: bound to 192.168.236.139 -- renewal in 825 seconds.
+Aug 24 09:45:01 dockerTest CRON[99064]: (root) CMD (command -v debian-sa1 > /dev/null && debian-sa1 1 1)
+Aug 24 09:50:37 dockerTest dhclient[895]: DHCPREQUEST of 192.168.236.139 on ens33 to 192.168.236.254 port 67 (xid=0x700f4ba1)
+Aug 24 09:50:37 dockerTest dhclient[895]: DHCPACK of 192.168.236.139 from 192.168.236.254
+Aug 24 09:50:37 dockerTest dhclient[895]: bound to 192.168.236.139 -- renewal in 831 seconds.
+Aug 24 09:55:01 dockerTest CRON[99088]: (root) CMD (command -v debian-sa1 > /dev/null && debian-sa1 1 1)
+Aug 24 10:04:28 dockerTest dhclient[895]: DHCPREQUEST of 192.168.236.139 on ens33 to 192.168.236.254 port 67 (xid=0x700f4ba1)
+Aug 24 10:04:28 dockerTest dhclient[895]: DHCPACK of 192.168.236.139 from 192.168.236.254
+Aug 24 10:04:28 dockerTest dhclient[895]: bound to 192.168.236.139 -- renewal in 753 seconds.
+Aug 24 10:05:01 dockerTest CRON[99115]: (root) CMD (command -v debian-sa1 > /dev/null && debian-sa1 1 1)
+Aug 24 10:15:01 dockerTest CRON[99129]: (root) CMD (command -v debian-sa1 > /dev/null && debian-sa1 1 1)
+Aug 24 10:17:01 dockerTest dhclient[895]: DHCPREQUEST of 192.168.236.139 on ens33 to 192.168.236.254 port 67 (xid=0x700f4ba1)
+Aug 24 10:17:01 dockerTest dhclient[895]: DHCPACK of 192.168.236.139 from 192.168.236.254
+Aug 24 10:17:01 dockerTest dhclient[895]: bound to 192.168.236.139 -- renewal in 814 seconds.
+Aug 24 10:17:01 dockerTest CRON[99144]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Aug 24 10:25:01 dockerTest CRON[99156]: (root) CMD (command -v debian-sa1 > /dev/null && debian-sa1 1 1)
+Aug 24 10:30:35 dockerTest dhclient[895]: DHCPREQUEST of 192.168.236.139 on ens33 to 192.168.236.254 port 67 (xid=0x700f4ba1)
+Aug 24 10:30:35 dockerTest dhclient[895]: DHCPACK of 192.168.236.139 from 192.168.236.254
+Aug 24 10:30:35 dockerTest dhclient[895]: bound to 192.168.236.139 -- renewal in 829 seconds.
+Aug 24 10:35:01 dockerTest CRON[99180]: (root) CMD (command -v debian-sa1 > /dev/null && debian-sa1 1 1)
+Aug 24 10:44:24 dockerTest dhclient[895]: DHCPREQUEST of 192.168.236.139 on ens33 to 192.168.236.254 port 67 (xid=0x700f4ba1)
+Aug 24 10:44:24 dockerTest dhclient[895]: DHCPACK of 192.168.236.139 from 192.168.236.254
+Aug 24 10:44:24 dockerTest dhclient[895]: bound to 192.168.236.139 -- renewal in 680 seconds.
+Aug 24 10:45:01 dockerTest CRON[99205]: (root) CMD (command -v debian-sa1 > /dev/null && debian-sa1 1 1)
+Aug 24 10:55:01 dockerTest CRON[99219]: (root) CMD (command -v debian-sa1 > /dev/null && debian-sa1 1 1)
+Aug 24 10:55:44 dockerTest dhclient[895]: DHCPREQUEST of 192.168.236.139 on ens33 to 192.168.236.254 port 67 (xid=0x700f4ba1)
+Aug 24 10:55:44 dockerTest dhclient[895]: DHCPACK of 192.168.236.139 from 192.168.236.254
+Aug 24 10:55:44 dockerTest dhclient[895]: bound to 192.168.236.139 -- renewal in 677 seconds.
+Aug 24 11:05:01 dockerTest CRON[99243]: (root) CMD (command -v debian-sa1 > /dev/null && debian-sa1 1 1)
+Aug 24 11:07:01 dockerTest dhclient[895]: DHCPREQUEST of 192.168.236.139 on ens33 to 192.168.236.254 port 67 (xid=0x700f4ba1)
+Aug 24 11:07:01 dockerTest dhclient[895]: DHCPACK of 192.168.236.139 from 192.168.236.254
+Aug 24 11:07:01 dockerTest dhclient[895]: bound to 192.168.236.139 -- renewal in 858 seconds.
+Aug 24 11:15:01 dockerTest CRON[99267]: (root) CMD (command -v debian-sa1 > /dev/null && debian-sa1 1 1)
+Aug 24 11:17:01 dockerTest CRON[99272]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Aug 24 11:21:19 dockerTest dhclient[895]: DHCPREQUEST of 192.168.236.139 on ens33 to 192.168.236.254 port 67 (xid=0x700f4ba1)
+Aug 24 11:21:19 dockerTest dhclient[895]: DHCPACK of 192.168.236.139 from 192.168.236.254
+Aug 24 11:21:19 dockerTest dhclient[895]: bound to 192.168.236.139 -- renewal in 733 seconds.
+Aug 24 11:25:01 dockerTest CRON[99295]: (root) CMD (command -v debian-sa1 > /dev/null && debian-sa1 1 1)
+Aug 24 11:33:32 dockerTest dhclient[895]: DHCPREQUEST of 192.168.236.139 on ens33 to 192.168.236.254 port 67 (xid=0x700f4ba1)
+Aug 24 11:33:32 dockerTest dhclient[895]: DHCPACK of 192.168.236.139 from 192.168.236.254
+Aug 24 11:33:32 dockerTest dhclient[895]: bound to 192.168.236.139 -- renewal in 891 seconds.
+Aug 24 11:35:01 dockerTest CRON[99319]: (root) CMD (command -v debian-sa1 > /dev/null && debian-sa1 1 1)
+Aug 24 11:45:01 dockerTest CRON[99333]: (root) CMD (command -v debian-sa1 > /dev/null && debian-sa1 1 1)
+Aug 24 11:48:23 dockerTest dhclient[895]: DHCPREQUEST of 192.168.236.139 on ens33 to 192.168.236.254 port 67 (xid=0x700f4ba1)
+Aug 24 11:48:23 dockerTest dhclient[895]: DHCPACK of 192.168.236.139 from 192.168.236.254
+Aug 24 11:48:23 dockerTest dhclient[895]: bound to 192.168.236.139 -- renewal in 854 seconds.
+Aug 24 11:55:01 dockerTest CRON[99358]: (root) CMD (command -v debian-sa1 > /dev/null && debian-sa1 1 1)
+Aug 24 12:02:37 dockerTest dhclient[895]: DHCPREQUEST of 192.168.236.139 on ens33 to 192.168.236.254 port 67 (xid=0x700f4ba1)
+Aug 24 12:02:37 dockerTest dhclient[895]: DHCPACK of 192.168.236.139 from 192.168.236.254
+Aug 24 12:02:37 dockerTest dhclient[895]: bound to 192.168.236.139 -- renewal in 679 seconds.
+Aug 24 12:05:01 dockerTest CRON[99382]: (root) CMD (command -v debian-sa1 > /dev/null && debian-sa1 1 1)
+Aug 24 12:13:56 dockerTest dhclient[895]: DHCPREQUEST of 192.168.236.139 on ens33 to 192.168.236.254 port 67 (xid=0x700f4ba1)
+Aug 24 12:13:56 dockerTest dhclient[895]: DHCPACK of 192.168.236.139 from 192.168.236.254
+Aug 24 12:13:56 dockerTest dhclient[895]: bound to 192.168.236.139 -- renewal in 881 seconds.
+Aug 24 12:15:01 dockerTest CRON[99407]: (root) CMD (command -v debian-sa1 > /dev/null && debian-sa1 1 1)
+Aug 24 12:17:01 dockerTest CRON[99412]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Aug 24 12:25:01 dockerTest CRON[99431]: (root) CMD (command -v debian-sa1 > /dev/null && debian-sa1 1 1)
+Aug 24 12:28:37 dockerTest dhclient[895]: DHCPREQUEST of 192.168.236.139 on ens33 to 192.168.236.254 port 67 (xid=0x700f4ba1)
+Aug 24 12:28:37 dockerTest dhclient[895]: DHCPACK of 192.168.236.139 from 192.168.236.254
+Aug 24 12:28:37 dockerTest dhclient[895]: bound to 192.168.236.139 -- renewal in 885 seconds.
+Aug 24 12:35:01 dockerTest CRON[99455]: (root) CMD (command -v debian-sa1 > /dev/null && debian-sa1 1 1)
+Aug 24 12:43:22 dockerTest dhclient[895]: DHCPREQUEST of 192.168.236.139 on ens33 to 192.168.236.254 port 67 (xid=0x700f4ba1)
+Aug 24 12:43:22 dockerTest dhclient[895]: DHCPACK of 192.168.236.139 from 192.168.236.254
+Aug 24 12:43:22 dockerTest dhclient[895]: bound to 192.168.236.139 -- renewal in 725 seconds.
+Aug 24 12:45:01 dockerTest CRON[99480]: (root) CMD (command -v debian-sa1 > /dev/null && debian-sa1 1 1)
+Aug 24 12:55:01 dockerTest CRON[99500]: (root) CMD (command -v debian-sa1 > /dev/null && debian-sa1 1 1)
+Aug 24 12:55:27 dockerTest dhclient[895]: DHCPREQUEST of 192.168.236.139 on ens33 to 192.168.236.254 port 67 (xid=0x700f4ba1)
+Aug 24 12:55:27 dockerTest dhclient[895]: DHCPACK of 192.168.236.139 from 192.168.236.254
+Aug 24 12:55:27 dockerTest dhclient[895]: bound to 192.168.236.139 -- renewal in 728 seconds.
+Aug 24 13:05:01 dockerTest CRON[99524]: (root) CMD (command -v debian-sa1 > /dev/null && debian-sa1 1 1)
+Aug 24 13:07:35 dockerTest dhclient[895]: DHCPREQUEST of 192.168.236.139 on ens33 to 192.168.236.254 port 67 (xid=0x700f4ba1)
+Aug 24 13:07:35 dockerTest dhclient[895]: DHCPACK of 192.168.236.139 from 192.168.236.254
+Aug 24 13:07:35 dockerTest dhclient[895]: bound to 192.168.236.139 -- renewal in 725 seconds.
+Aug 24 13:15:01 dockerTest CRON[99549]: (root) CMD (command -v debian-sa1 > /dev/null && debian-sa1 1 1)
+Aug 24 13:17:01 dockerTest CRON[99554]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Aug 24 13:19:40 dockerTest dhclient[895]: DHCPREQUEST of 192.168.236.139 on ens33 to 192.168.236.254 port 67 (xid=0x700f4ba1)
+Aug 24 13:19:40 dockerTest dhclient[895]: DHCPACK of 192.168.236.139 from 192.168.236.254
+Aug 24 13:19:41 dockerTest dhclient[895]: bound to 192.168.236.139 -- renewal in 753 seconds.
+Aug 24 13:25:01 dockerTest CRON[99576]: (root) CMD (command -v debian-sa1 > /dev/null && debian-sa1 1 1)
+Aug 24 13:32:14 dockerTest dhclient[895]: DHCPREQUEST of 192.168.236.139 on ens33 to 192.168.236.254 port 67 (xid=0x700f4ba1)
+Aug 24 13:32:14 dockerTest dhclient[895]: DHCPACK of 192.168.236.139 from 192.168.236.254
+Aug 24 13:32:14 dockerTest dhclient[895]: bound to 192.168.236.139 -- renewal in 862 seconds.
+Aug 24 13:35:01 dockerTest CRON[99600]: (root) CMD (command -v debian-sa1 > /dev/null && debian-sa1 1 1)
+Aug 24 13:45:01 dockerTest CRON[99613]: (root) CMD (command -v debian-sa1 > /dev/null && debian-sa1 1 1)
+Aug 24 13:46:36 dockerTest dhclient[895]: DHCPREQUEST of 192.168.236.139 on ens33 to 192.168.236.254 port 67 (xid=0x700f4ba1)
+Aug 24 13:46:36 dockerTest dhclient[895]: DHCPACK of 192.168.236.139 from 192.168.236.254
+Aug 24 13:46:36 dockerTest dhclient[895]: bound to 192.168.236.139 -- renewal in 760 seconds.
+Aug 24 13:55:01 dockerTest CRON[99638]: (root) CMD (command -v debian-sa1 > /dev/null && debian-sa1 1 1)
+Aug 24 13:59:16 dockerTest dhclient[895]: DHCPREQUEST of 192.168.236.139 on ens33 to 192.168.236.254 port 67 (xid=0x700f4ba1)
+Aug 24 13:59:16 dockerTest dhclient[895]: DHCPACK of 192.168.236.139 from 192.168.236.254
+Aug 24 13:59:16 dockerTest dhclient[895]: bound to 192.168.236.139 -- renewal in 855 seconds.
+Aug 24 14:04:01 dockerTest CRON[99660]: (root) CMD (   test -x /etc/cron.daily/popularity-contest && /etc/cron.daily/popularity-contest --crond)
+Aug 24 14:05:01 dockerTest CRON[99664]: (root) CMD (command -v debian-sa1 > /dev/null && debian-sa1 1 1)
+Aug 24 14:13:31 dockerTest dhclient[895]: DHCPREQUEST of 192.168.236.139 on ens33 to 192.168.236.254 port 67 (xid=0x700f4ba1)
+Aug 24 14:13:31 dockerTest dhclient[895]: DHCPACK of 192.168.236.139 from 192.168.236.254
+Aug 24 14:13:31 dockerTest dhclient[895]: bound to 192.168.236.139 -- renewal in 900 seconds.
+Aug 24 14:15:01 dockerTest CRON[99688]: (root) CMD (command -v debian-sa1 > /dev/null && debian-sa1 1 1)
+Aug 24 14:17:01 dockerTest CRON[99693]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Aug 24 14:25:01 dockerTest CRON[99705]: (root) CMD (command -v debian-sa1 > /dev/null && debian-sa1 1 1)
+Aug 24 14:28:31 dockerTest dhclient[895]: DHCPREQUEST of 192.168.236.139 on ens33 to 192.168.236.254 port 67 (xid=0x700f4ba1)
+Aug 24 14:28:31 dockerTest dhclient[895]: DHCPACK of 192.168.236.139 from 192.168.236.254
+Aug 24 14:28:31 dockerTest dhclient[895]: bound to 192.168.236.139 -- renewal in 702 seconds.
+Aug 24 14:35:01 dockerTest CRON[99730]: (root) CMD (command -v debian-sa1 > /dev/null && debian-sa1 1 1)
+Aug 24 14:40:13 dockerTest dhclient[895]: DHCPREQUEST of 192.168.236.139 on ens33 to 192.168.236.254 port 67 (xid=0x700f4ba1)
+Aug 24 14:40:13 dockerTest dhclient[895]: DHCPACK of 192.168.236.139 from 192.168.236.254
+Aug 24 14:40:13 dockerTest dhclient[895]: bound to 192.168.236.139 -- renewal in 738 seconds.
+Aug 24 14:45:01 dockerTest CRON[99754]: (root) CMD (command -v debian-sa1 > /dev/null && debian-sa1 1 1)
+Aug 24 14:52:31 dockerTest dhclient[895]: DHCPREQUEST of 192.168.236.139 on ens33 to 192.168.236.254 port 67 (xid=0x700f4ba1)
+Aug 24 14:52:31 dockerTest dhclient[895]: DHCPACK of 192.168.236.139 from 192.168.236.254
+Aug 24 14:52:31 dockerTest dhclient[895]: bound to 192.168.236.139 -- renewal in 687 seconds.
+Aug 24 14:55:01 dockerTest CRON[99779]: (root) CMD (command -v debian-sa1 > /dev/null && debian-sa1 1 1)
+Aug 24 15:03:58 dockerTest dhclient[895]: DHCPREQUEST of 192.168.236.139 on ens33 to 192.168.236.254 port 67 (xid=0x700f4ba1)
+Aug 24 15:03:58 dockerTest dhclient[895]: DHCPACK of 192.168.236.139 from 192.168.236.254
+Aug 24 15:03:58 dockerTest dhclient[895]: bound to 192.168.236.139 -- renewal in 707 seconds.
+Aug 24 15:05:01 dockerTest CRON[99806]: (root) CMD (command -v debian-sa1 > /dev/null && debian-sa1 1 1)
+Aug 24 15:15:01 dockerTest CRON[99825]: (root) CMD (command -v debian-sa1 > /dev/null && debian-sa1 1 1)
+Aug 24 15:15:45 dockerTest dhclient[895]: DHCPREQUEST of 192.168.236.139 on ens33 to 192.168.236.254 port 67 (xid=0x700f4ba1)
+Aug 24 15:15:45 dockerTest dhclient[895]: DHCPACK of 192.168.236.139 from 192.168.236.254
+Aug 24 15:15:45 dockerTest dhclient[895]: bound to 192.168.236.139 -- renewal in 788 seconds.
+Aug 24 15:17:01 dockerTest CRON[99841]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Aug 24 15:19:25 dockerTest systemd[1]: Started Session 632 of user bob.
+Aug 24 15:25:01 dockerTest CRON[99934]: (root) CMD (command -v debian-sa1 > /dev/null && debian-sa1 1 1)
+Aug 24 15:28:53 dockerTest dhclient[895]: DHCPREQUEST of 192.168.236.139 on ens33 to 192.168.236.254 port 67 (xid=0x700f4ba1)
+Aug 24 15:28:53 dockerTest dhclient[895]: DHCPACK of 192.168.236.139 from 192.168.236.254
+Aug 24 15:28:53 dockerTest dhclient[895]: bound to 192.168.236.139 -- renewal in 836 seconds.
+Aug 24 15:35:01 dockerTest CRON[99989]: (root) CMD (command -v debian-sa1 > /dev/null && debian-sa1 1 1)
+Aug 24 15:42:49 dockerTest dhclient[895]: DHCPREQUEST of 192.168.236.139 on ens33 to 192.168.236.254 port 67 (xid=0x700f4ba1)
+Aug 24 15:42:49 dockerTest dhclient[895]: DHCPACK of 192.168.236.139 from 192.168.236.254
+Aug 24 15:42:49 dockerTest dhclient[895]: bound to 192.168.236.139 -- renewal in 754 seconds.
+Aug 24 15:45:01 dockerTest CRON[100040]: (root) CMD (command -v debian-sa1 > /dev/null && debian-sa1 1 1)
+Aug 24 15:55:01 dockerTest CRON[100080]: (root) CMD (command -v debian-sa1 > /dev/null && debian-sa1 1 1)
+Aug 24 15:55:23 dockerTest dhclient[895]: DHCPREQUEST of 192.168.236.139 on ens33 to 192.168.236.254 port 67 (xid=0x700f4ba1)
+Aug 24 15:55:23 dockerTest dhclient[895]: DHCPACK of 192.168.236.139 from 192.168.236.254
+Aug 24 15:55:23 dockerTest dhclient[895]: bound to 192.168.236.139 -- renewal in 849 seconds.
+Aug 24 16:05:01 dockerTest CRON[100106]: (root) CMD (command -v debian-sa1 > /dev/null && debian-sa1 1 1)
+Aug 24 16:09:32 dockerTest dhclient[895]: DHCPREQUEST of 192.168.236.139 on ens33 to 192.168.236.254 port 67 (xid=0x700f4ba1)
+Aug 24 16:09:32 dockerTest dhclient[895]: DHCPACK of 192.168.236.139 from 192.168.236.254
+Aug 24 16:09:32 dockerTest dhclient[895]: bound to 192.168.236.139 -- renewal in 760 seconds.
+Aug 24 16:15:01 dockerTest CRON[100146]: (root) CMD (command -v debian-sa1 > /dev/null && debian-sa1 1 1)
+Aug 24 16:17:01 dockerTest CRON[100151]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Aug 24 16:22:12 dockerTest dhclient[895]: DHCPREQUEST of 192.168.236.139 on ens33 to 192.168.236.254 port 67 (xid=0x700f4ba1)
+Aug 24 16:22:12 dockerTest dhclient[895]: DHCPACK of 192.168.236.139 from 192.168.236.254
+Aug 24 16:22:12 dockerTest dhclient[895]: bound to 192.168.236.139 -- renewal in 786 seconds.
+Aug 24 16:25:02 dockerTest CRON[100173]: (root) CMD (command -v debian-sa1 > /dev/null && debian-sa1 1 1)
+Aug 24 16:35:01 dockerTest CRON[100231]: (root) CMD (command -v debian-sa1 > /dev/null && debian-sa1 1 1)
+Aug 24 16:35:19 dockerTest dhclient[895]: DHCPREQUEST of 192.168.236.139 on ens33 to 192.168.236.254 port 67 (xid=0x700f4ba1)
+Aug 24 16:35:19 dockerTest dhclient[895]: DHCPACK of 192.168.236.139 from 192.168.236.254
+Aug 24 16:35:19 dockerTest dhclient[895]: bound to 192.168.236.139 -- renewal in 855 seconds.
+Aug 24 16:45:01 dockerTest CRON[100254]: (root) CMD (command -v debian-sa1 > /dev/null && debian-sa1 1 1)
+Aug 24 16:49:16 dockerTest systemd[1]: Starting Daily apt download activities...
+Aug 24 16:49:34 dockerTest dhclient[895]: DHCPREQUEST of 192.168.236.139 on ens33 to 192.168.236.254 port 67 (xid=0x700f4ba1)
+Aug 24 16:49:34 dockerTest dhclient[895]: DHCPACK of 192.168.236.139 from 192.168.236.254
+Aug 24 16:49:34 dockerTest dhclient[895]: bound to 192.168.236.139 -- renewal in 743 seconds.
+Aug 24 16:49:45 dockerTest systemd[1]: Started Daily apt download activities.
+Aug 24 16:55:01 dockerTest CRON[100550]: (root) CMD (command -v debian-sa1 > /dev/null && debian-sa1 1 1)
+Aug 24 17:01:57 dockerTest dhclient[895]: DHCPREQUEST of 192.168.236.139 on ens33 to 192.168.236.254 port 67 (xid=0x700f4ba1)
+Aug 24 17:01:57 dockerTest dhclient[895]: DHCPACK of 192.168.236.139 from 192.168.236.254
+Aug 24 17:01:57 dockerTest dhclient[895]: bound to 192.168.236.139 -- renewal in 737 seconds.
+Aug 24 17:05:01 dockerTest CRON[100585]: (root) CMD (command -v debian-sa1 > /dev/null && debian-sa1 1 1)
+Aug 24 17:14:14 dockerTest dhclient[895]: DHCPREQUEST of 192.168.236.139 on ens33 to 192.168.236.254 port 67 (xid=0x700f4ba1)
+Aug 24 17:14:14 dockerTest dhclient[895]: DHCPACK of 192.168.236.139 from 192.168.236.254
+Aug 24 17:14:14 dockerTest dhclient[895]: bound to 192.168.236.139 -- renewal in 689 seconds.
+Aug 24 17:15:01 dockerTest CRON[100616]: (root) CMD (command -v debian-sa1 > /dev/null && debian-sa1 1 1)
+Aug 24 17:17:01 dockerTest CRON[100624]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Aug 24 17:25:01 dockerTest CRON[100666]: (root) CMD (command -v debian-sa1 > /dev/null && debian-sa1 1 1)
+Aug 24 17:25:43 dockerTest dhclient[895]: DHCPREQUEST of 192.168.236.139 on ens33 to 192.168.236.254 port 67 (xid=0x700f4ba1)
+Aug 24 17:25:43 dockerTest dhclient[895]: DHCPACK of 192.168.236.139 from 192.168.236.254
+Aug 24 17:25:44 dockerTest dhclient[895]: bound to 192.168.236.139 -- renewal in 677 seconds.
+Aug 24 17:34:56 dockerTest systemd[1]: Started Session 648 of user bob.
+Aug 24 17:35:01 dockerTest CRON[100815]: (root) CMD (command -v debian-sa1 > /dev/null && debian-sa1 1 1)
+Aug 24 17:37:01 dockerTest dhclient[895]: DHCPREQUEST of 192.168.236.139 on ens33 to 192.168.236.254 port 67 (xid=0x700f4ba1)
+Aug 24 17:37:01 dockerTest dhclient[895]: DHCPACK of 192.168.236.139 from 192.168.236.254
+Aug 24 17:37:01 dockerTest dhclient[895]: bound to 192.168.236.139 -- renewal in 855 seconds.
+Aug 24 17:45:01 dockerTest CRON[100849]: (root) CMD (command -v debian-sa1 > /dev/null && debian-sa1 1 1)
+Aug 24 17:51:17 dockerTest dhclient[895]: DHCPREQUEST of 192.168.236.139 on ens33 to 192.168.236.254 port 67 (xid=0x700f4ba1)
+Aug 24 17:51:17 dockerTest dhclient[895]: DHCPACK of 192.168.236.139 from 192.168.236.254
+Aug 24 17:51:17 dockerTest dhclient[895]: bound to 192.168.236.139 -- renewal in 725 seconds.
+Aug 24 17:55:01 dockerTest CRON[100882]: (root) CMD (command -v debian-sa1 > /dev/null && debian-sa1 1 1)
+Aug 24 18:03:22 dockerTest dhclient[895]: DHCPREQUEST of 192.168.236.139 on ens33 to 192.168.236.254 port 67 (xid=0x700f4ba1)
+Aug 24 18:03:22 dockerTest dhclient[895]: DHCPACK of 192.168.236.139 from 192.168.236.254
+Aug 24 18:03:22 dockerTest dhclient[895]: bound to 192.168.236.139 -- renewal in 795 seconds.
+Aug 24 18:05:01 dockerTest CRON[100906]: (root) CMD (command -v debian-sa1 > /dev/null && debian-sa1 1 1)
+Aug 24 18:15:01 dockerTest CRON[100926]: (root) CMD (command -v debian-sa1 > /dev/null && debian-sa1 1 1)
+Aug 24 18:16:37 dockerTest dhclient[895]: DHCPREQUEST of 192.168.236.139 on ens33 to 192.168.236.254 port 67 (xid=0x700f4ba1)
+Aug 24 18:16:37 dockerTest dhclient[895]: DHCPACK of 192.168.236.139 from 192.168.236.254
+Aug 24 18:16:37 dockerTest dhclient[895]: bound to 192.168.236.139 -- renewal in 829 seconds.
+Aug 24 18:17:01 dockerTest CRON[100941]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Aug 24 18:25:01 dockerTest CRON[100953]: (root) CMD (command -v debian-sa1 > /dev/null && debian-sa1 1 1)
+Aug 24 18:30:26 dockerTest dhclient[895]: DHCPREQUEST of 192.168.236.139 on ens33 to 192.168.236.254 port 67 (xid=0x700f4ba1)
+Aug 24 18:30:26 dockerTest dhclient[895]: DHCPACK of 192.168.236.139 from 192.168.236.254
+Aug 24 18:30:27 dockerTest dhclient[895]: bound to 192.168.236.139 -- renewal in 778 seconds.
+Aug 24 18:35:01 dockerTest CRON[100977]: (root) CMD (command -v debian-sa1 > /dev/null && debian-sa1 1 1)
+Aug 24 18:43:25 dockerTest dhclient[895]: DHCPREQUEST of 192.168.236.139 on ens33 to 192.168.236.254 port 67 (xid=0x700f4ba1)
+Aug 24 18:43:25 dockerTest dhclient[895]: DHCPACK of 192.168.236.139 from 192.168.236.254
+Aug 24 18:43:25 dockerTest dhclient[895]: bound to 192.168.236.139 -- renewal in 797 seconds.
+Aug 24 18:45:01 dockerTest CRON[101001]: (root) CMD (command -v debian-sa1 > /dev/null && debian-sa1 1 1)
+Aug 24 18:55:02 dockerTest CRON[101016]: (root) CMD (command -v debian-sa1 > /dev/null && debian-sa1 1 1)
+Aug 24 18:56:42 dockerTest dhclient[895]: DHCPREQUEST of 192.168.236.139 on ens33 to 192.168.236.254 port 67 (xid=0x700f4ba1)
+Aug 24 18:56:42 dockerTest dhclient[895]: DHCPACK of 192.168.236.139 from 192.168.236.254
+Aug 24 18:56:42 dockerTest dhclient[895]: bound to 192.168.236.139 -- renewal in 712 seconds.
+Aug 24 19:01:16 dockerTest systemd[1]: Starting Cleanup of Temporary Directories...
+Aug 24 19:01:16 dockerTest systemd-tmpfiles[101035]: [/usr/lib/tmpfiles.d/var.conf:14] Duplicate line for path "/var/log", ignoring.
+Aug 24 19:01:16 dockerTest systemd[1]: Started Cleanup of Temporary Directories.
+Aug 24 19:05:01 dockerTest CRON[101047]: (root) CMD (command -v debian-sa1 > /dev/null && debian-sa1 1 1)
+Aug 24 19:10:17 dockerTest dhclient[895]: DHCPREQUEST of 192.168.236.139 on ens33 to 192.168.236.254 port 67 (xid=0x700f4ba1)
+Aug 24 19:10:17 dockerTest dhclient[895]: DHCPACK of 192.168.236.139 from 192.168.236.254
+Aug 24 19:10:17 dockerTest systemd[1]: systemd-logind.service: Watchdog timeout (limit 3min)!
+Aug 24 19:10:20 dockerTest dhclient[895]: bound to 192.168.236.139 -- renewal in 732 seconds.
+Aug 24 19:10:42 dockerTest systemd[1]: systemd-logind.service: Main process exited, code=dumped, status=6/ABRT
+Aug 24 19:10:42 dockerTest systemd[1]: systemd-logind.service: Unit entered failed state.
+Aug 24 19:10:42 dockerTest systemd[1]: systemd-logind.service: Failed with result 'core-dump'.
+Aug 24 19:10:42 dockerTest systemd[1]: systemd-logind.service: Service has no hold-off time, scheduling restart.
+Aug 24 19:10:42 dockerTest systemd[1]: Stopped Login Service.
+Aug 24 19:10:42 dockerTest systemd[1]: Starting Login Service...
+Aug 24 19:10:42 dockerTest systemd[1]: Started Login Service.
+Aug 24 19:10:45 dockerTest systemd[1]: Started User Manager for UID 1000.
+Aug 24 19:15:01 dockerTest CRON[101075]: (root) CMD (command -v debian-sa1 > /dev/null && debian-sa1 1 1)
+Aug 24 19:17:01 dockerTest CRON[101080]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Aug 24 19:22:32 dockerTest dhclient[895]: DHCPREQUEST of 192.168.236.139 on ens33 to 192.168.236.254 port 67 (xid=0x700f4ba1)
+Aug 24 19:22:32 dockerTest dhclient[895]: DHCPACK of 192.168.236.139 from 192.168.236.254
+Aug 24 19:22:36 dockerTest dhclient[895]: bound to 192.168.236.139 -- renewal in 829 seconds.
+Aug 24 19:25:01 dockerTest CRON[101103]: (root) CMD (command -v debian-sa1 > /dev/null && debian-sa1 1 1)
+Aug 24 19:35:01 dockerTest CRON[101116]: (root) CMD (command -v debian-sa1 > /dev/null && debian-sa1 1 1)
+Aug 24 19:36:45 dockerTest dhclient[895]: DHCPREQUEST of 192.168.236.139 on ens33 to 192.168.236.254 port 67 (xid=0x700f4ba1)
+Aug 24 19:36:45 dockerTest dhclient[895]: DHCPACK of 192.168.236.139 from 192.168.236.254
+Aug 24 19:36:45 dockerTest dhclient[895]: bound to 192.168.236.139 -- renewal in 830 seconds.
+Aug 24 19:45:01 dockerTest CRON[101140]: (root) CMD (command -v debian-sa1 > /dev/null && debian-sa1 1 1)
+Aug 24 19:50:35 dockerTest dhclient[895]: DHCPREQUEST of 192.168.236.139 on ens33 to 192.168.236.254 port 67 (xid=0x700f4ba1)
+Aug 24 19:50:35 dockerTest dhclient[895]: DHCPACK of 192.168.236.139 from 192.168.236.254
+Aug 24 19:50:35 dockerTest dhclient[895]: bound to 192.168.236.139 -- renewal in 782 seconds.
+Aug 24 19:55:01 dockerTest CRON[101164]: (root) CMD (command -v debian-sa1 > /dev/null && debian-sa1 1 1)
+Aug 24 20:03:38 dockerTest dhclient[895]: DHCPREQUEST of 192.168.236.139 on ens33 to 192.168.236.254 port 67 (xid=0x700f4ba1)
+Aug 24 20:03:38 dockerTest dhclient[895]: DHCPACK of 192.168.236.139 from 192.168.236.254
+Aug 24 20:03:38 dockerTest dhclient[895]: bound to 192.168.236.139 -- renewal in 837 seconds.
+Aug 24 20:05:01 dockerTest CRON[101189]: (root) CMD (command -v debian-sa1 > /dev/null && debian-sa1 1 1)
+Aug 24 20:15:01 dockerTest CRON[101203]: (root) CMD (command -v debian-sa1 > /dev/null && debian-sa1 1 1)
+Aug 24 20:17:01 dockerTest CRON[101209]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Aug 24 20:17:35 dockerTest dhclient[895]: DHCPREQUEST of 192.168.236.139 on ens33 to 192.168.236.254 port 67 (xid=0x700f4ba1)
+Aug 24 20:17:35 dockerTest dhclient[895]: DHCPACK of 192.168.236.139 from 192.168.236.254
+Aug 24 20:17:35 dockerTest dhclient[895]: bound to 192.168.236.139 -- renewal in 805 seconds.
+Aug 24 20:25:01 dockerTest CRON[101231]: (root) CMD (command -v debian-sa1 > /dev/null && debian-sa1 1 1)
+Aug 24 20:31:00 dockerTest dhclient[895]: DHCPREQUEST of 192.168.236.139 on ens33 to 192.168.236.254 port 67 (xid=0x700f4ba1)
+Aug 24 20:31:00 dockerTest dhclient[895]: DHCPACK of 192.168.236.139 from 192.168.236.254
+Aug 24 20:31:00 dockerTest dhclient[895]: bound to 192.168.236.139 -- renewal in 770 seconds.
+Aug 24 20:35:01 dockerTest CRON[101256]: (root) CMD (command -v debian-sa1 > /dev/null && debian-sa1 1 1)
+Aug 24 20:43:50 dockerTest dhclient[895]: DHCPREQUEST of 192.168.236.139 on ens33 to 192.168.236.254 port 67 (xid=0x700f4ba1)
+Aug 24 20:43:50 dockerTest dhclient[895]: DHCPACK of 192.168.236.139 from 192.168.236.254
+Aug 24 20:43:50 dockerTest dhclient[895]: bound to 192.168.236.139 -- renewal in 759 seconds.
+Aug 24 20:45:01 dockerTest CRON[101280]: (root) CMD (command -v debian-sa1 > /dev/null && debian-sa1 1 1)
+Aug 24 20:55:01 dockerTest CRON[101295]: (root) CMD (command -v debian-sa1 > /dev/null && debian-sa1 1 1)
+Aug 24 20:56:29 dockerTest dhclient[895]: DHCPREQUEST of 192.168.236.139 on ens33 to 192.168.236.254 port 67 (xid=0x700f4ba1)
+Aug 24 20:56:29 dockerTest dhclient[895]: DHCPACK of 192.168.236.139 from 192.168.236.254
+Aug 24 20:56:30 dockerTest dhclient[895]: bound to 192.168.236.139 -- renewal in 845 seconds.
+Aug 24 20:59:08 dockerTest systemd[1]: Starting Daily apt download activities...
+Aug 24 20:59:09 dockerTest systemd[1]: Started Daily apt download activities.
+Aug 24 21:05:01 dockerTest CRON[101367]: (root) CMD (command -v debian-sa1 > /dev/null && debian-sa1 1 1)
+Aug 24 21:10:35 dockerTest dhclient[895]: DHCPREQUEST of 192.168.236.139 on ens33 to 192.168.236.254 port 67 (xid=0x700f4ba1)
+Aug 24 21:10:35 dockerTest dhclient[895]: DHCPACK of 192.168.236.139 from 192.168.236.254
+Aug 24 21:10:35 dockerTest dhclient[895]: bound to 192.168.236.139 -- renewal in 829 seconds.
+Aug 24 21:15:01 dockerTest CRON[101391]: (root) CMD (command -v debian-sa1 > /dev/null && debian-sa1 1 1)
+Aug 24 21:17:01 dockerTest CRON[101397]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Aug 24 21:24:24 dockerTest dhclient[895]: DHCPREQUEST of 192.168.236.139 on ens33 to 192.168.236.254 port 67 (xid=0x700f4ba1)
+Aug 24 21:24:24 dockerTest dhclient[895]: DHCPACK of 192.168.236.139 from 192.168.236.254
+Aug 24 21:24:24 dockerTest dhclient[895]: bound to 192.168.236.139 -- renewal in 846 seconds.
+Aug 24 21:25:01 dockerTest CRON[101424]: (root) CMD (command -v debian-sa1 > /dev/null && debian-sa1 1 1)
+Aug 24 21:35:01 dockerTest CRON[101461]: (root) CMD (command -v debian-sa1 > /dev/null && debian-sa1 1 1)
+Aug 24 21:38:30 dockerTest dhclient[895]: DHCPREQUEST of 192.168.236.139 on ens33 to 192.168.236.254 port 67 (xid=0x700f4ba1)
+Aug 24 21:38:30 dockerTest dhclient[895]: DHCPACK of 192.168.236.139 from 192.168.236.254
+Aug 24 21:38:30 dockerTest dhclient[895]: bound to 192.168.236.139 -- renewal in 832 seconds.
+Aug 24 21:45:01 dockerTest CRON[101499]: (root) CMD (command -v debian-sa1 > /dev/null && debian-sa1 1 1)
+Aug 24 21:52:23 dockerTest dhclient[895]: DHCPREQUEST of 192.168.236.139 on ens33 to 192.168.236.254 port 67 (xid=0x700f4ba1)
+Aug 24 21:52:23 dockerTest dhclient[895]: DHCPACK of 192.168.236.139 from 192.168.236.254
+Aug 24 21:52:23 dockerTest dhclient[895]: bound to 192.168.236.139 -- renewal in 740 seconds.
+Aug 24 21:55:01 dockerTest CRON[101545]: (root) CMD (command -v debian-sa1 > /dev/null && debian-sa1 1 1)
+Aug 24 22:04:44 dockerTest dhclient[895]: DHCPREQUEST of 192.168.236.139 on ens33 to 192.168.236.254 port 67 (xid=0x700f4ba1)
+Aug 24 22:04:44 dockerTest dhclient[895]: DHCPACK of 192.168.236.139 from 192.168.236.254
+Aug 24 22:04:44 dockerTest dhclient[895]: bound to 192.168.236.139 -- renewal in 684 seconds.
+Aug 24 22:05:01 dockerTest CRON[101569]: (root) CMD (command -v debian-sa1 > /dev/null && debian-sa1 1 1)
+Aug 24 22:15:01 dockerTest CRON[101607]: (root) CMD (command -v debian-sa1 > /dev/null && debian-sa1 1 1)
+Aug 24 22:16:09 dockerTest dhclient[895]: DHCPREQUEST of 192.168.236.139 on ens33 to 192.168.236.254 port 67 (xid=0x700f4ba1)
+Aug 24 22:16:09 dockerTest dhclient[895]: DHCPACK of 192.168.236.139 from 192.168.236.254
+Aug 24 22:16:09 dockerTest dhclient[895]: bound to 192.168.236.139 -- renewal in 822 seconds.
+Aug 24 22:17:01 dockerTest CRON[101631]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Aug 24 22:25:01 dockerTest CRON[101643]: (root) CMD (command -v debian-sa1 > /dev/null && debian-sa1 1 1)
+Aug 24 22:29:51 dockerTest dhclient[895]: DHCPREQUEST of 192.168.236.139 on ens33 to 192.168.236.254 port 67 (xid=0x700f4ba1)
+Aug 24 22:29:51 dockerTest dhclient[895]: DHCPACK of 192.168.236.139 from 192.168.236.254
+Aug 24 22:29:51 dockerTest dhclient[895]: bound to 192.168.236.139 -- renewal in 856 seconds.
+Aug 24 22:35:01 dockerTest CRON[101668]: (root) CMD (command -v debian-sa1 > /dev/null && debian-sa1 1 1)
+Aug 24 22:44:07 dockerTest dhclient[895]: DHCPREQUEST of 192.168.236.139 on ens33 to 192.168.236.254 port 67 (xid=0x700f4ba1)
+Aug 24 22:44:07 dockerTest dhclient[895]: DHCPACK of 192.168.236.139 from 192.168.236.254
+Aug 24 22:44:07 dockerTest dhclient[895]: bound to 192.168.236.139 -- renewal in 733 seconds.
+Aug 24 22:45:01 dockerTest CRON[101693]: (root) CMD (command -v debian-sa1 > /dev/null && debian-sa1 1 1)
+Aug 24 22:55:01 dockerTest CRON[101707]: (root) CMD (command -v debian-sa1 > /dev/null && debian-sa1 1 1)
+Aug 24 22:56:20 dockerTest dhclient[895]: DHCPREQUEST of 192.168.236.139 on ens33 to 192.168.236.254 port 67 (xid=0x700f4ba1)
+Aug 24 22:56:20 dockerTest dhclient[895]: DHCPACK of 192.168.236.139 from 192.168.236.254
+Aug 24 22:56:20 dockerTest dhclient[895]: bound to 192.168.236.139 -- renewal in 838 seconds.
+Aug 24 23:05:01 dockerTest CRON[101732]: (root) CMD (command -v debian-sa1 > /dev/null && debian-sa1 1 1)
+Aug 24 23:10:18 dockerTest dhclient[895]: DHCPREQUEST of 192.168.236.139 on ens33 to 192.168.236.254 port 67 (xid=0x700f4ba1)
+Aug 24 23:10:18 dockerTest dhclient[895]: DHCPACK of 192.168.236.139 from 192.168.236.254
+Aug 24 23:10:18 dockerTest dhclient[895]: bound to 192.168.236.139 -- renewal in 829 seconds.
+Aug 24 23:15:01 dockerTest CRON[101756]: (root) CMD (command -v debian-sa1 > /dev/null && debian-sa1 1 1)
+Aug 24 23:17:01 dockerTest CRON[101762]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Aug 24 23:24:07 dockerTest dhclient[895]: DHCPREQUEST of 192.168.236.139 on ens33 to 192.168.236.254 port 67 (xid=0x700f4ba1)
+Aug 24 23:24:07 dockerTest dhclient[895]: DHCPACK of 192.168.236.139 from 192.168.236.254
+Aug 24 23:24:07 dockerTest dhclient[895]: bound to 192.168.236.139 -- renewal in 810 seconds.
+Aug 24 23:25:01 dockerTest CRON[101784]: (root) CMD (command -v debian-sa1 > /dev/null && debian-sa1 1 1)
+Aug 24 23:35:01 dockerTest CRON[101799]: (root) CMD (command -v debian-sa1 > /dev/null && debian-sa1 1 1)
+Aug 24 23:37:38 dockerTest dhclient[895]: DHCPREQUEST of 192.168.236.139 on ens33 to 192.168.236.254 port 67 (xid=0x700f4ba1)
+Aug 24 23:37:38 dockerTest dhclient[895]: DHCPACK of 192.168.236.139 from 192.168.236.254
+Aug 24 23:37:38 dockerTest dhclient[895]: bound to 192.168.236.139 -- renewal in 772 seconds.
+Aug 24 23:45:01 dockerTest CRON[101827]: (root) CMD (command -v debian-sa1 > /dev/null && debian-sa1 1 1)
+Aug 24 23:50:30 dockerTest dhclient[895]: DHCPREQUEST of 192.168.236.139 on ens33 to 192.168.236.254 port 67 (xid=0x700f4ba1)
+Aug 24 23:50:30 dockerTest dhclient[895]: DHCPACK of 192.168.236.139 from 192.168.236.254
+Aug 24 23:50:30 dockerTest dhclient[895]: bound to 192.168.236.139 -- renewal in 849 seconds.
+Aug 24 23:55:01 dockerTest CRON[101868]: (root) CMD (command -v debian-sa1 > /dev/null && debian-sa1 1 1)
+Aug 24 23:59:01 dockerTest CRON[101875]: (root) CMD (command -v debian-sa1 > /dev/null && debian-sa1 60 2)
+Aug 25 00:04:39 dockerTest dhclient[895]: DHCPREQUEST of 192.168.236.139 on ens33 to 192.168.236.254 port 67 (xid=0x700f4ba1)
+Aug 25 00:04:39 dockerTest dhclient[895]: DHCPACK of 192.168.236.139 from 192.168.236.254
+Aug 25 00:04:39 dockerTest dhclient[895]: bound to 192.168.236.139 -- renewal in 755 seconds.
+Aug 25 00:05:01 dockerTest CRON[101897]: (root) CMD (command -v debian-sa1 > /dev/null && debian-sa1 1 1)
+Aug 25 00:15:01 dockerTest CRON[101915]: (root) CMD (command -v debian-sa1 > /dev/null && debian-sa1 1 1)
+Aug 25 00:17:01 dockerTest CRON[101920]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Aug 25 00:17:15 dockerTest dhclient[895]: DHCPREQUEST of 192.168.236.139 on ens33 to 192.168.236.254 port 67 (xid=0x700f4ba1)
+Aug 25 00:17:15 dockerTest dhclient[895]: DHCPACK of 192.168.236.139 from 192.168.236.254
+Aug 25 00:17:15 dockerTest dhclient[895]: bound to 192.168.236.139 -- renewal in 864 seconds.
+Aug 25 00:25:01 dockerTest CRON[101943]: (root) CMD (command -v debian-sa1 > /dev/null && debian-sa1 1 1)
+Aug 25 00:31:39 dockerTest dhclient[895]: DHCPREQUEST of 192.168.236.139 on ens33 to 192.168.236.254 port 67 (xid=0x700f4ba1)
+Aug 25 00:31:39 dockerTest dhclient[895]: DHCPACK of 192.168.236.139 from 192.168.236.254
+Aug 25 00:31:40 dockerTest dhclient[895]: bound to 192.168.236.139 -- renewal in 753 seconds.
+Aug 25 00:35:01 dockerTest CRON[101968]: (root) CMD (command -v debian-sa1 > /dev/null && debian-sa1 1 1)
+Aug 25 00:44:13 dockerTest dhclient[895]: DHCPREQUEST of 192.168.236.139 on ens33 to 192.168.236.254 port 67 (xid=0x700f4ba1)
+Aug 25 00:44:13 dockerTest dhclient[895]: DHCPACK of 192.168.236.139 from 192.168.236.254
+Aug 25 00:44:13 dockerTest dhclient[895]: bound to 192.168.236.139 -- renewal in 699 seconds.
+Aug 25 00:45:01 dockerTest CRON[101992]: (root) CMD (command -v debian-sa1 > /dev/null && debian-sa1 1 1)
+Aug 25 00:55:01 dockerTest CRON[102007]: (root) CMD (command -v debian-sa1 > /dev/null && debian-sa1 1 1)
+Aug 25 00:55:52 dockerTest dhclient[895]: DHCPREQUEST of 192.168.236.139 on ens33 to 192.168.236.254 port 67 (xid=0x700f4ba1)
+Aug 25 00:55:52 dockerTest dhclient[895]: DHCPACK of 192.168.236.139 from 192.168.236.254
+Aug 25 00:55:52 dockerTest dhclient[895]: bound to 192.168.236.139 -- renewal in 816 seconds.
+Aug 25 00:57:01 dockerTest CRON[102022]: (root) CMD (if [ -x /usr/share/mdadm/checkarray ] && [ $(date +%d) -le 7 ]; then /usr/share/mdadm/checkarray --cron --all --idle --quiet; fi)
+Aug 25 01:05:01 dockerTest CRON[102035]: (root) CMD (command -v debian-sa1 > /dev/null && debian-sa1 1 1)
+Aug 25 01:09:28 dockerTest dhclient[895]: DHCPREQUEST of 192.168.236.139 on ens33 to 192.168.236.254 port 67 (xid=0x700f4ba1)
+Aug 25 01:09:28 dockerTest dhclient[895]: DHCPACK of 192.168.236.139 from 192.168.236.254
+Aug 25 01:09:28 dockerTest dhclient[895]: bound to 192.168.236.139 -- renewal in 883 seconds.
+Aug 25 01:15:01 dockerTest CRON[102059]: (root) CMD (command -v debian-sa1 > /dev/null && debian-sa1 1 1)
+Aug 25 01:17:01 dockerTest CRON[102064]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Aug 25 01:24:11 dockerTest dhclient[895]: DHCPREQUEST of 192.168.236.139 on ens33 to 192.168.236.254 port 67 (xid=0x700f4ba1)
+Aug 25 01:24:11 dockerTest dhclient[895]: DHCPACK of 192.168.236.139 from 192.168.236.254
+Aug 25 01:24:11 dockerTest dhclient[895]: bound to 192.168.236.139 -- renewal in 850 seconds.
+Aug 25 01:25:01 dockerTest CRON[102087]: (root) CMD (command -v debian-sa1 > /dev/null && debian-sa1 1 1)
+Aug 25 01:35:01 dockerTest CRON[102101]: (root) CMD (command -v debian-sa1 > /dev/null && debian-sa1 1 1)
+Aug 25 01:38:21 dockerTest dhclient[895]: DHCPREQUEST of 192.168.236.139 on ens33 to 192.168.236.254 port 67 (xid=0x700f4ba1)
+Aug 25 01:38:21 dockerTest dhclient[895]: DHCPACK of 192.168.236.139 from 192.168.236.254
+Aug 25 01:38:22 dockerTest dhclient[895]: bound to 192.168.236.139 -- renewal in 764 seconds.
+Aug 25 01:45:01 dockerTest CRON[102130]: (root) CMD (command -v debian-sa1 > /dev/null && debian-sa1 1 1)
+Aug 25 01:51:07 dockerTest dhclient[895]: DHCPREQUEST of 192.168.236.139 on ens33 to 192.168.236.254 port 67 (xid=0x700f4ba1)
+Aug 25 01:51:07 dockerTest dhclient[895]: DHCPACK of 192.168.236.139 from 192.168.236.254
+Aug 25 01:51:07 dockerTest dhclient[895]: bound to 192.168.236.139 -- renewal in 811 seconds.
+Aug 25 01:55:01 dockerTest CRON[102157]: (root) CMD (command -v debian-sa1 > /dev/null && debian-sa1 1 1)
+Aug 25 02:04:38 dockerTest dhclient[895]: DHCPREQUEST of 192.168.236.139 on ens33 to 192.168.236.254 port 67 (xid=0x700f4ba1)
+Aug 25 02:04:38 dockerTest dhclient[895]: DHCPACK of 192.168.236.139 from 192.168.236.254
+Aug 25 02:04:38 dockerTest dhclient[895]: bound to 192.168.236.139 -- renewal in 743 seconds.
+Aug 25 02:05:01 dockerTest CRON[102182]: (root) CMD (command -v debian-sa1 > /dev/null && debian-sa1 1 1)
+Aug 25 02:15:01 dockerTest CRON[102198]: (root) CMD (command -v debian-sa1 > /dev/null && debian-sa1 1 1)
+Aug 25 02:17:01 dockerTest CRON[102204]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Aug 25 02:17:01 dockerTest dhclient[895]: DHCPREQUEST of 192.168.236.139 on ens33 to 192.168.236.254 port 67 (xid=0x700f4ba1)
+Aug 25 02:17:01 dockerTest dhclient[895]: DHCPACK of 192.168.236.139 from 192.168.236.254
+Aug 25 02:17:01 dockerTest dhclient[895]: bound to 192.168.236.139 -- renewal in 864 seconds.
+Aug 25 02:25:01 dockerTest CRON[102226]: (root) CMD (command -v debian-sa1 > /dev/null && debian-sa1 1 1)
+Aug 25 02:31:25 dockerTest dhclient[895]: DHCPREQUEST of 192.168.236.139 on ens33 to 192.168.236.254 port 67 (xid=0x700f4ba1)
+Aug 25 02:31:25 dockerTest dhclient[895]: DHCPACK of 192.168.236.139 from 192.168.236.254
+Aug 25 02:31:25 dockerTest dhclient[895]: bound to 192.168.236.139 -- renewal in 877 seconds.
+Aug 25 02:35:01 dockerTest CRON[102250]: (root) CMD (command -v debian-sa1 > /dev/null && debian-sa1 1 1)
+Aug 25 02:45:01 dockerTest CRON[102265]: (root) CMD (command -v debian-sa1 > /dev/null && debian-sa1 1 1)
+Aug 25 02:46:02 dockerTest dhclient[895]: DHCPREQUEST of 192.168.236.139 on ens33 to 192.168.236.254 port 67 (xid=0x700f4ba1)
+Aug 25 02:46:02 dockerTest dhclient[895]: DHCPACK of 192.168.236.139 from 192.168.236.254
+Aug 25 02:46:02 dockerTest dhclient[895]: bound to 192.168.236.139 -- renewal in 887 seconds.
+Aug 25 02:55:01 dockerTest CRON[102289]: (root) CMD (command -v debian-sa1 > /dev/null && debian-sa1 1 1)
+Aug 25 03:00:50 dockerTest dhclient[895]: DHCPREQUEST of 192.168.236.139 on ens33 to 192.168.236.254 port 67 (xid=0x700f4ba1)
+Aug 25 03:00:50 dockerTest dhclient[895]: DHCPACK of 192.168.236.139 from 192.168.236.254
+Aug 25 03:00:50 dockerTest dhclient[895]: bound to 192.168.236.139 -- renewal in 680 seconds.
+Aug 25 03:05:01 dockerTest CRON[102322]: (root) CMD (command -v debian-sa1 > /dev/null && debian-sa1 1 1)
+Aug 25 03:05:31 dockerTest systemd[1]: Reloading.
+Aug 25 03:05:31 dockerTest systemd[1]: Started ACPI event daemon.
+Aug 25 03:05:36 dockerTest systemd[1]: Reloading.
+Aug 25 03:05:37 dockerTest systemd[1]: Started ACPI event daemon.
+Aug 25 03:05:37 dockerTest systemd[1]: Reloading.
+Aug 25 03:05:37 dockerTest systemd[1]: Started ACPI event daemon.
+Aug 25 03:05:37 dockerTest systemd[1]: Reloading.
+Aug 25 03:05:37 dockerTest systemd[1]: Started ACPI event daemon.
+Aug 25 03:05:37 dockerTest systemd[1]: Starting LSB: Apache2 web server...
+Aug 25 03:05:37 dockerTest apache2[103336]:  * Starting Apache httpd web server apache2
+Aug 25 03:05:38 dockerTest apache2[103336]: AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 127.0.1.1. Set the 'ServerName' directive globally to suppress this message
+Aug 25 03:05:38 dockerTest apache2[103336]: (98)Address already in use: AH00072: make_sock: could not bind to address [::]:80
+Aug 25 03:05:38 dockerTest apache2[103336]: (98)Address already in use: AH00072: make_sock: could not bind to address 0.0.0.0:80
+Aug 25 03:05:38 dockerTest apache2[103336]: no listening sockets available, shutting down
+Aug 25 03:05:38 dockerTest apache2[103336]: AH00015: Unable to open logs
+Aug 25 03:05:38 dockerTest apache2[103336]: Action 'start' failed.
+Aug 25 03:05:38 dockerTest apache2[103336]: The Apache error log may have more information.
+Aug 25 03:05:38 dockerTest apache2[103336]:  *
+Aug 25 03:05:38 dockerTest apache2[103361]:  * Stopping Apache httpd web server apache2
+Aug 25 03:05:38 dockerTest apache2[103361]:  *
+Aug 25 03:05:38 dockerTest systemd[1]: Started LSB: Apache2 web server.
+Aug 25 03:05:38 dockerTest systemd[1]: Reloading.
+Aug 25 03:05:38 dockerTest systemd[1]: Started ACPI event daemon.
+Aug 25 03:12:10 dockerTest dhclient[895]: DHCPREQUEST of 192.168.236.139 on ens33 to 192.168.236.254 port 67 (xid=0x700f4ba1)
+Aug 25 03:12:10 dockerTest dhclient[895]: DHCPACK of 192.168.236.139 from 192.168.236.254
+Aug 25 03:12:10 dockerTest dhclient[895]: bound to 192.168.236.139 -- renewal in 682 seconds.
+Aug 25 03:15:01 dockerTest CRON[103478]: (root) CMD (command -v debian-sa1 > /dev/null && debian-sa1 1 1)
+Aug 25 03:17:01 dockerTest CRON[103483]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Aug 25 03:23:32 dockerTest dhclient[895]: DHCPREQUEST of 192.168.236.139 on ens33 to 192.168.236.254 port 67 (xid=0x700f4ba1)
+Aug 25 03:23:32 dockerTest dhclient[895]: DHCPACK of 192.168.236.139 from 192.168.236.254
+Aug 25 03:23:32 dockerTest dhclient[895]: bound to 192.168.236.139 -- renewal in 764 seconds.
+Aug 25 03:25:01 dockerTest CRON[103540]: (root) CMD (command -v debian-sa1 > /dev/null && debian-sa1 1 1)
+Aug 25 03:35:01 dockerTest CRON[103612]: (root) CMD (command -v debian-sa1 > /dev/null && debian-sa1 1 1)
+Aug 25 03:36:16 dockerTest dhclient[895]: DHCPREQUEST of 192.168.236.139 on ens33 to 192.168.236.254 port 67 (xid=0x700f4ba1)
+Aug 25 03:36:16 dockerTest dhclient[895]: DHCPACK of 192.168.236.139 from 192.168.236.254
+Aug 25 03:36:16 dockerTest dhclient[895]: bound to 192.168.236.139 -- renewal in 705 seconds.
+Aug 25 03:45:02 dockerTest CRON[103740]: (root) CMD (command -v debian-sa1 > /dev/null && debian-sa1 1 1)
+Aug 25 03:48:01 dockerTest dhclient[895]: DHCPREQUEST of 192.168.236.139 on ens33 to 192.168.236.254 port 67 (xid=0x700f4ba1)
+Aug 25 03:48:01 dockerTest dhclient[895]: DHCPACK of 192.168.236.139 from 192.168.236.254
+Aug 25 03:48:01 dockerTest dhclient[895]: bound to 192.168.236.139 -- renewal in 676 seconds.

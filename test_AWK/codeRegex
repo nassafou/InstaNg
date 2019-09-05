@@ -1,0 +1,2 @@
+redisposer les numéro de télephone
+cat phone.txt | sed -e '/^[[:digit:]]\{3\}/(&)/g' \-e 's/)[[:digit:]]\{4\}/&-/g'

@@ -1,4 +1,4 @@
-#!/bin/ksh
+#!/usr/bin/ksh
 PS3="Votre choix :"
 echo "Quelle donnee ?"
 select repose in Jules Romain Francois quitte

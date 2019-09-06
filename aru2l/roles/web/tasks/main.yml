@@ -1,0 +1,6 @@
+---
+# tasks file for web
+
+- include: roles/web/tasks/database.yml
+- include: roles/web/tasks/wordpress.yml
+- include: roles/web/tasks/caddy.yml

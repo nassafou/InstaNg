@@ -1,0 +1,23 @@
+---
+ - name: "Install DB"
+   hosts: database
+   remote_user: bob
+   pre_tasks:
+     - name: Read vars from file
+       become: yes
+       include_vars: vars.yml
+   roles:
+     - common
+     - database
+# provisionning des serveurs web
+ 
+ - name: "Install DB"
+   hosts: web
+   remote_user: bob
+   pre_tasks:
+     - name: Read vars from file
+       become: yes
+       include_vars: vars.yml
+   roles:
+     - common
+     - web

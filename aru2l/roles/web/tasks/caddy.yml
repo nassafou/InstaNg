@@ -1,0 +1,35 @@
+---
+# Tasks file for database
+ - name: "[WEB]- caddy  structure"
+   file: path={{ item }} state=directory
+   with_items:
+     - "{{ caddy_certs_dirctory }}"
+     - "{{ caddy_vhosts_dirctory }}"
+     - "{{ caddy_log_directory }}"
+
+ - name: "[DEV]- caddyfile copy"
+   copy: src=Caddyfile dest=/var/caddy/coddyfile
+
+ - name: "[DEV]- Copie des templates vhosts"
+   template: src={{ item.src }} dest={{ item.dest }}
+   with_items: "{{ caddy_vhosts }}"
+
+ - name: "[WEB]-Create container caddy"
+   docker_container:
+     name: caddy
+     image: abiosoft/caddy
+     state: started
+     restart: yes
+     restart_policy: always
+     recreate: yes
+     ports:
+       - "80:80"
+       - "443:443"
+     volumes:
+       - "{{ caddy_file }}:/etc/Caddyfile"
+       - "{{ caddy_certs_directory }}:/root/.caddy"
+       - "{{ caddy_vhosts_directory }}:/etc/vhosts"
+       - "{{ caddy_log_directory }}:/var/log"
+     link:
+       - wordpress
+

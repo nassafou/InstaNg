@@ -1,0 +1,9 @@
+---
+ - name: "[WEB-DB]- install software"
+   apt: name={{ item }} state=latest update_case=yes
+   with_items: 
+       - vim
+       - git
+       - tree
+       - htop
+       - zsh

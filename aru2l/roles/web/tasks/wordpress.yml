@@ -1,0 +1,27 @@
+---
+# Tasks file for database
+ - name: "[WEB]- wordpress  structure"
+   file: path={{ item }} state=directory
+   with_items:
+     - "{{ wordpress_data_dirctory }}"
+     - "{{ wordpress_log_directory }}"
+
+ - name: "[WEB]-Create container wordpress"
+   docker_container:
+     name: wordpress
+     image: wordpress
+     state: started
+     restart: yes
+     restart_policy: always
+     recreate: yes
+     ports:
+       - 127.0.0.1:8080:80
+     volumes:
+       - "{{ wordpress_data_directory }}:/var/www/html"
+     #  - "{{ log_directory }}:/var/log"
+     env:
+       WORDPRESS_DB_HOST: "{{ db_ip }}"
+       WORDPRESS_DB_USER: wordpress
+       WORDPRESS_DB_PASSWORD: "{{ mariadb_wordpress_password }}"
+
+

@@ -1,6 +1,7 @@
 ---
 # Tasks file for database
  - name: "[WEB]- caddy  structure"
+   become: yes
    file: path={{ item }} state=directory
    with_items:
      - "{{ caddy_certs_dirctory }}"
@@ -8,13 +9,16 @@
      - "{{ caddy_log_directory }}"
 
  - name: "[DEV]- caddyfile copy"
+   become: yes
    copy: src=Caddyfile dest=/var/caddy/coddyfile
 
  - name: "[DEV]- Copie des templates vhosts"
+   become: yes
    template: src={{ item.src }} dest={{ item.dest }}
    with_items: "{{ caddy_vhosts }}"
 
  - name: "[WEB]-Create container caddy"
+   become: yes
    docker_container:
      name: caddy
      image: abiosoft/caddy

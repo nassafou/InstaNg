@@ -1,5 +1,5 @@
 ---
 # vars file for database
 
-data_dirctory: "/bob/mariadb/data"
-log__dirctory: "/bob/mariadb/log"
+data_directory: "/bob/mariadb/data"
+log_directory: "/bob/mariadb/log"

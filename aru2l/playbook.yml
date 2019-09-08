@@ -1,6 +1,7 @@
 ---
  - name: "Install DB"
    hosts: database
+   become: yes
    remote_user: bob
    pre_tasks:
      - name: Read vars from file
@@ -13,6 +14,7 @@
  
  - name: "Install DB"
    hosts: web
+   become: yes
    remote_user: bob
    pre_tasks:
      - name: Read vars from file

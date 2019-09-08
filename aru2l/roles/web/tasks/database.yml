@@ -1,15 +1,49 @@
 ---
+ 
+ - name: Install pip
+   become: yes
+   apt:
+     name: python-pip
+     update_cache: yes
+     state: present
 
- - name: db for wordpress
+# - name: "[WEB]- Install the python MySQLB module"
+#   become: yes 
+#   pip: name=MySQL-python
+ 
+ - name: "[DEV]- Install packages"
+   apt: name={{ item }} state=present
+   with_items:
+     - python3-dev
+     - libmysqlclient-dev
+   when: ansible_lsb.major_release|int >= 16
+
+
+ - name: Install python package
+   become: yes
+   apt: name=python3-pip state=present
+   when: ansible_lsb.major_release|int >= 16
+
+ - name: Install the python
+   pip: name=mysqlclient
+   when: ansible_lsb.major_release|int >= 16
+
+ - name: "[WEB]db for wordpress"
+   become: yes
    mysql_db: 
-     login_user: root
-     login_password: '{{ mariadb_root_password }}'
+     login_user: bob 
+     login_password: '{{ mariadb_bob_password }}'
      login_host: "{{ db_ip }}"
      name: wordpress
      encoding: utf8
      state: present
 
- - name: create mariadb  user for wordpress
+# - name: "[WEB]- Install the python MySQLB module"
+#   become: yes 
+#   pip: name=MySQL-python
+
+ - name: "[WEB]-create mariadb  user for wordpress"
+   become: yes
    mysql_user:
      login_user: bob
      login_password: '{{ mariadb_bob_password }}'

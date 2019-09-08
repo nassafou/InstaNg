@@ -1,12 +1,14 @@
 ---
 # Tasks file for database
  - name: "[WEB]- wordpress  structure"
+   become: yes
    file: path={{ item }} state=directory
    with_items:
      - "{{ wordpress_data_dirctory }}"
      - "{{ wordpress_log_directory }}"
 
  - name: "[WEB]-Create container wordpress"
+   become: yes
    docker_container:
      name: wordpress
      image: wordpress

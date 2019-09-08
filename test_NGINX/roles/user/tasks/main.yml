@@ -1,0 +1,13 @@
+---
+ - name: Add the user
+   become: yes
+   user: 
+    name: {{ user }}
+    comment: John Doe
+    uid: 1040
+ #   group: admin
+ - name: Add ssh key
+   become: yes
+   authorized_key: 
+    user: {{ user }}
+    key: "{{ lookup('file', '~/.ssh/id_rsa.pub') }}"

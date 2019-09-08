@@ -1,0 +1,7 @@
+---
+ - name: "[WEB]- install software"
+   apt: name={{ item }} state=latest    
+   with_items:
+        - git
+        - vim 
+        - htop

@@ -1,0 +1,6 @@
+---
+ - name: Update
+   become: yes 
+   apt: 
+     name: nginx
+     state: latest

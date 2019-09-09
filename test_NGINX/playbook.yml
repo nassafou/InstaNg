@@ -5,6 +5,9 @@
 
    vars:
       user: johnd
+      domains: 
+        - local.dev
+        - demo.fr
    
    roles:
       - common

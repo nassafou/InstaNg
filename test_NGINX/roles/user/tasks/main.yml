@@ -2,12 +2,29 @@
  - name: Add the user
    become: yes
    user: 
-    name: {{ user }}
+    name: "{{ user }}"
     comment: John Doe
     uid: 1040
  #   group: admin
  - name: Add ssh key
    become: yes
    authorized_key: 
-    user: {{ user }}
+    user: "{{ user }}"
     key: "{{ lookup('file', '~/.ssh/id_rsa.pub') }}"
+   
+ - name: "[WEB]- {{ user }} Ajout sudoers"
+   become: yes
+   when: user is defined
+   template: 
+     src: templates/sudoers.j2
+     dest: /etc/sudoers.d/{{ user }}-sudoer
+     validate: 'visudo -cf %s'
+
+ - name: "[WEB]- {{ user }} Ajout depot "
+   become: yes
+   when: user is defined 
+   template:
+     src: templates/depot.j2
+     dest: /home/johnd/{{ user }}-depot
+          
+   

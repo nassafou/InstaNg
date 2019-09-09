@@ -1,6 +1,31 @@
 ---
- - name: Update
+ - name: "[WEB]- Install Nginx"
    become: yes 
    apt: 
      name: nginx
      state: latest
+  # démarrage de nginx
+
+ - name: Start
+   become: yes
+   service: 
+      name: nginx
+      state: started
+      enabled: true
+ - name: "Suprimer default.conf"
+   become: yes 
+   file: 
+     path: /etc/nginx/sites-enabled/default 
+     state: absent
+   notify: nginx reload
+
+ - name: PHP
+   become: yes
+   include: php.yml
+
+
+ - name: sites-enabled
+   become: yes
+   include: site.yml
+   with_items: "{{ domains }}"
+

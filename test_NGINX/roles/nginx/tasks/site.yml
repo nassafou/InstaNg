@@ -3,7 +3,15 @@
 
  - name: Create directory
    become: yes
+   when: item.repo is undefined
    file: path=/home/{{ user }}/{{ item }} state=directory owner={{ user }}
+
+ - name: "Clonage du site {{ item.domain }} depuis item.repo"
+   become: yes
+   when: item.repo is defined
+   git: dest=/home/{{ user }}/{{ item.domain }} clone=yes repo={{ item.repo }}
+
+
 
  - name: Link to www
    become: yes

@@ -6,9 +6,13 @@
    vars:
       user: johnd
       domains: 
-        - local.dev
-        - demo.fr
+        - domain: local.dev
+          php: no
           repo: https://github.com/nassafou/InstaNg.git
+
+        - domain: demo.fr
+          php: yes
+        #  repo: https://github.com/nassafou/InstaNg.git
    roles:
       - common
       - nginx

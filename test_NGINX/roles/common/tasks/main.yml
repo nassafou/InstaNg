@@ -1,5 +1,6 @@
 ---
  - name: "[WEB]- install software"
+   become: yes
    apt: name={{ item }} state=latest    
    with_items:
         - git
